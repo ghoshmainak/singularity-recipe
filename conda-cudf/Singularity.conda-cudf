@@ -1,5 +1,9 @@
 Bootstrap: docker
 From: ubuntu:18.04
+
+%labels
+
+AUTHOR Mainak
  
 %post
  
