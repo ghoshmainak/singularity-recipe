@@ -34,8 +34,9 @@ conda install --quiet --yes \
     'numpy' \
     'pandas'
 
-conda install -c rapidsai -c nvidia -c numba -c conda-forge \
-    cudf=0.13 cudatoolkit=10.1
+conda install -q -y -c conda-forge \
+  -c rapidsai-nightly/label/cuda10.0 -c nvidia/label/cuda10.0 \
+  cudf cuml
 
 %environment
  
