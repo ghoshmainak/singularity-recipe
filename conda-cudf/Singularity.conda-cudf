@@ -37,6 +37,8 @@ conda install --quiet --yes \
 conda install -c rapidsai -c nvidia -c conda-forge \
     -c defaults cudf=0.14 cudatoolkit=10.1
 
+conda install -c rapidsai dask-cudf
+
 %environment
  
 XDG_RUNTIME_DIR=""
