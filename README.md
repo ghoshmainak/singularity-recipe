@@ -20,3 +20,24 @@ This is an extention of singularity-recipe. This container contains:
 * cudatoolkit=10.1
 
 # mental-ability-project recipe
+
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/containers/15485)
+
+This container is meant for my own project on mental ability. It contains:
+* python development environment
+* pip3
+* numpy
+* scipy
+* scikit-learn
+* pandas
+* jupyter
+* jupyterlab
+* pandas
+* statmodels
+* nltk
+* spacy
+* fasttext
+* contractions
+* wget
+* curl
+* nano and vim
