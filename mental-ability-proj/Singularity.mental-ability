@@ -1,0 +1,33 @@
+Bootstrap: docker
+From: ubuntu:focal
+
+%labels
+
+AUTHOR Mainak
+
+%post
+ 
+apt update
+apt upgrade -y
+apt-get -y install net-tools
+apt-get -y install curl wget \
+    nano vim python3-pip python3-venv \
+    build-essential python3-dev
+
+pip3 install numpy
+pip3 install \
+    jupyter \
+    jupyterlab \
+    scipy \
+    pandas \
+    statsmodels \
+    scikit-learn \
+    nltk \
+    spacy \
+    fasttext \
+
+pip3 install contractions
+
+rm -R /root/.cache
+apt clean
+rm -rf /var/lib/apt/lists/*

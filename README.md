@@ -18,3 +18,5 @@ This is an extention of singularity-recipe. This container contains:
 * Numpy
 * cudf=0.13
 * cudatoolkit=10.1
+
+# mental-ability-project recipe
