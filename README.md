@@ -43,3 +43,4 @@ This container is meant for my own project on mental ability. It contains:
 * nano and vim
 * transformers
 * PyTorch
+* git
