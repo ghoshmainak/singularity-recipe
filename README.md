@@ -44,3 +44,4 @@ This container is meant for my own project on mental ability. It contains:
 * transformers
 * PyTorch
 * git
+* dask
