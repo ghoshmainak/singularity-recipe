@@ -15,30 +15,20 @@ apt-get -y install curl wget \
     build-essential python3-dev \
     git
 
-pip3 install numpy
-pip3 install \
-    jupyter \
-    jupyterlab \
+pip3 install numpy \
     scipy \
     pandas \
     statsmodels \
     scikit-learn \
     nltk \
-    spacy \
-    fasttext \
-    transformers==3.1.0 \
-    pyarrow \
     jsonmerge \
+    jsonlines \
+    dill
 
 pip3 install torch==1.7.1+cu101 torchvision==0.8.2+cu101 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
 
-pip3 install contractions \
-    emot \
-    demoji \
-    networkx \
-    yellowbrick
-
-python3 -m pip install "dask[complete]" 
+pip3 install -e git://github.com/ibeltagy/allennlp@fp16_v0.9.0#egg=allennlp \
+    overrides==3.1.0
 
 rm -R /root/.cache
 apt clean
