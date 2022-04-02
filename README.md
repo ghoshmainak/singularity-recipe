@@ -45,3 +45,17 @@ This container is meant for my own project on mental ability. It contains:
 * PyTorch
 * git
 * dask
+
+# elastic search recipe
+It contains:
+* python development environment
+* pip3
+* numpy
+* curl
+* wget
+* pandas
+* git
+* jsonmerge
+* jsonlines
+* parquet
+* elasticsearch
