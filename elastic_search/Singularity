@@ -11,9 +11,7 @@ apt update
 apt upgrade -y
 apt-get -y install net-tools
 apt-get -y install curl wget \
-    nano vim python3-pip python3-venv \
-    build-essential python3-dev \
-    git
+    python3-pip python3.8
 
 pip3 install numpy \
     pandas \
