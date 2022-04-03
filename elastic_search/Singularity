@@ -20,5 +20,6 @@ pip3 install numpy \
     jsonmerge \
     jsonlines \
     elasticsearch \
-    parquet
+    parquet \
+    pydotenv
 
